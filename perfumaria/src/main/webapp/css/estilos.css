@@ -1,0 +1,389 @@
+@charset "UTF-8";
+
+body {
+	font-family: Helvetica;
+	background-color: #F8F8F8;
+}
+
+.footer {
+	background-color: #843951;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	position: scroll;
+	bottom: 0;
+	width: 100%;
+	margin: 300px 0px 0px 0px;
+}
+
+.container a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.item1{
+	margin-right: 50px;
+	margin-left: -50px;
+}
+
+
+
+.itempesquisa{
+	background-color: white;
+	width: 30%;
+	margin-left: -180px;
+}
+.itempesquisa p {
+	margin-left: 10px;
+}
+
+.container {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	font-size: 20px;
+	justify-content: space-around;
+	background-color: #843951;
+	display: flex;
+	align-items: center;
+}
+
+.nome {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+.container2 {
+	width: 90%;
+	position: relative;
+	left: 5%;
+	right: 0px;
+	top: 30px;
+	font-size: 12px;
+	justify-content: space-around;
+	background-color: #843951;
+	display: flex;
+	align-items: center;
+}
+
+.container3 {
+	width: 30%;
+	position: relative;
+	top: 60px;
+	left: 35%;
+	font-size: 12px;
+	justify-content: space-around;
+	background-color: #843951;
+	display: flex;
+	align-items: center;
+}
+
+
+.cadastrar {
+	background-color: #843951;
+	padding: 10px 10px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.cadastrar a{
+	color: white;
+	text-decoration: none;
+	
+
+}
+
+.carrinho-container {
+    max-width: 800px; /* Largura máxima do container */
+    margin: 50px auto; /* Centraliza o container */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-carrinho {
+    width: 100%; /* Tabela ocupa 100% do container */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    margin-top: 20px;
+}
+
+.tabela-carrinho th, .tabela-carrinho td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda das células */
+    text-align: left;
+}
+
+.produto-imagem {
+    width: 100px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+}
+
+.container4 {
+	width: 30%;
+	position: relative;
+	top: 120px;
+	margin: 90px;
+	left: 30%;
+	bottom: 120px;
+	font-size: 12px;
+	justify-content: space-around;
+	background-color: #843951;
+	display: flex;
+	align-items: center;
+}
+
+.containerprodutos {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 90px;
+	font-size: 20px;
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.conteirarpaginaproduto {
+    display: flex;
+    align-items: flex-start; 
+    max-width: 1200px;
+     margin: 40px auto;
+    padding: 20px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; 
+    
+}
+
+.imagens img {
+    margin: 5px 0;
+    width: 100%; 
+    max-width: 80px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagemprincipal {
+    flex: 1; 
+    margin-right: 20px;
+}
+
+.imagemprincipal img {
+    width: 100%;
+    max-width: 400px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tituloprod {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    flex: 1;
+    height: auto;
+}
+
+.descricao, .calculo-cep {
+    max-width: 1200px;
+    margin: 20px auto; /* Margem entre o container e as novas divs */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.descricao h3, .calculo-cep h3 {
+    margin-bottom: 10px; /* Espaço abaixo dos títulos */
+}
+
+.calculo-cep {
+    display: flex;
+    align-items: center; /* Alinha o input e o botão verticalmente */
+}
+
+.calculo-cep label {
+    margin-right: 10px; /* Espaço entre o label e o input */
+}
+
+.calculo-cep input {
+    padding: 5px;
+    margin-right: 10px; /* Espaço entre o input e o botão */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculo-cep button {
+    background-color: #ff6b81; /* Cor do botão */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.calculo-cep button:hover {
+    background-color: #ff4a70; /* Cor ao passar o mouse */
+}
+
+.negrito{
+	font-weight: bold;
+	font-size: 200%;
+}
+.tituloprod form {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    background-color: #843951; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4a70; 
+}
+
+.espaço {
+    height: 20px; 
+}
+
+.imagemprincipal{
+	float: left;
+}
+
+.containerprodutos a {
+	color: black;
+	text-decoration: none;
+}
+
+.titulo {
+	color: black;
+	position: relative;
+	top: 30px;
+	align-items: center;
+}
+
+.produto {
+	width: 15%;
+	position: relative;
+	align-items: center;
+	border: solid;
+	border-color: #D3D3D3;
+	background-color: WHITE;
+}
+
+.titulo{
+	font-weight: bold;
+}
+
+.produto p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.produto img {
+	position: relative;
+	left: 23%;
+}
+
+.cadastro {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	font-size: 20px;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tabelaresumida {
+    max-width: 1400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.admdiv {
+    background-color: #843951;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Cor do texto em branco */
+    max-width: 300px; /* Limitar a largura da div */
+    margin: 20px auto; /* Centralizar a div */
+    text-align: center; /* Centralizar o texto */
+}
+
+.admdiv a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff; /* Cor do texto em branco */
+    text-decoration: none; /* Remover sublinhado */
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px; /* Arredondar os cantos dos links */
+}
+
+.admdiv a:hover {
+    background-color: #5B2325; /* Tom mais escuro para o hover */
+    transform: translateY(-2px); /* Levantar um pouco ao passar o mouse */
+}
